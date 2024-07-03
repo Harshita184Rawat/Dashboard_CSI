@@ -47,37 +47,39 @@ const App = () => {
 
                             <Navbar />
                         </div>
-                    </div>
 
-                    <div>
-                        <Routes>
-                            {/* Dashboard */}
-                            <Route path='/' element={<Ecommerce />} />
-                            <Route path='/ecommerce' element={<Ecommerce />} />
 
-                            {/* Pages */}
-                            <Route path="/orders" element={<Orders />} />
-                            <Route path="/employees" element={<Employees />} />
-                            <Route path="/customers" element={<Customers />} />
+                        <div>
+                            <Routes>
+                                {/* Dashboard */}
+                                <Route path='/' element={<Ecommerce />} />
+                                <Route path='/ecommerce' element={<Ecommerce />} />
 
-                            {/*  Apps */}
-                            <Route path="/kanban" element={<Kanban />} />
-                            <Route path="/editor" element={<Editor />} />
-                            <Route path="/calendar" element={<Calendar />} />
-                            <Route path="/color-picker" element={<ColorPicker />} />
+                                {/* Pages */}
+                                <Route path="/orders" element={<Orders />} />
+                                <Route path="/employees" element={<Employees />} />
+                                <Route path="/customers" element={<Customers />} />
 
-                            {/* Charts */}
-                            <Route path="/line" element={<Line />} />
-                            <Route path="/area" element={<Area />} />
-                            <Route path="/bar" element={<Bar />} />
-                            <Route path="/pie" element={<Pie />} />
+                                {/*  Apps */}
+                                <Route path="/kanban" element={<Kanban />} />
+                                <Route path="/editor" element={<Editor />} />
+                                <Route path="/calendar" element={<Calendar />} />
+                                <Route path="/color-picker" element={<ColorPicker />} />
 
-                            <Route path="/financial" element={<Financial />} />
-                            <Route path="/color-mappingr" element={<ColorMapping />} />
-                            <Route path="/pyramid" element={<Pyramid />} />
-                            <Route path="/stacked" element={<Stacked />} />
+                                {/* Charts */}
+                                <Route path="/line" element={<Line />} />
+                                <Route path="/area" element={<Area />} />
+                                <Route path="/bar" element={<Bar />} />
+                                <Route path="/pie" element={<Pie />} />
 
-                        </Routes>
+                                <Route path="/financial" element={<Financial />} />
+                                <Route path="/color-mappingr" element={<ColorMapping />} />
+                                <Route path="/pyramid" element={<Pyramid />} />
+                                <Route path="/stacked" element={<Stacked />} />
+
+                            </Routes>
+                        </div>
+
                     </div>
 
                 </div>
